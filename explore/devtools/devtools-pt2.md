@@ -1,0 +1,2 @@
+1. The bug is when we retrive num1 and num2 from the dom, they are both string, and when two string added up togehter they simply concatenate which gives wrong math result.
+2. Before do the calculatin, I will parse two strings into number and then it will give the correct result
