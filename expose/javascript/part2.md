@@ -9,23 +9,26 @@
 9. it will raise error with the same reason as Q5
 10. 3: It returns the length of the prices array. Even though it's being declared by const keyword, the length variable does not get reassigned after its initialization so it is valid
 11. [50, 100, 150]: Even though all the declaration becomes const, but same as Q8, they are all being used correctly within their own scope and because discounted is an object so it's valid to push items into discounted even if it's declared by const keyword because it's always pointing to the same address
-12A. student.name
-12B. student['Grad Year']
-12C. student.greeting()
-12D. student['Favorite Teacher'].name 
-12E. student.courseLoad[0]
-13A. '32'
-13B. 1
-13C. 3
-13D. '3null'
-13E. 4
-13F. 0
-13G. '3undefined'
-13H. NaN
-14A. true
-14B. false
-14C. true
-14D. false
-14E. false
-14F. true
+12. 
+    1.  student.name
+    2.  student['Grad Year']
+    3.  student.greeting()
+    4.  student['Favorite Teacher'].name 
+    5.  student.courseLoad[0]
+13. 
+    1.  '32'
+    2.  1
+    3.  3
+    4.  '3null'
+    5.  4
+    6.  0
+    7.  '3undefined'
+    8.  NaN
+14. 
+    1.  true
+    2.  false
+    3.  true
+    4.  false
+    5.  false
+    6.  true
 15. == is used to compare two variables without considering their data type, === is used to compare two values in a more strict mode without type conversion
