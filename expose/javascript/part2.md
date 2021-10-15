@@ -32,3 +32,11 @@
     5.  false
     6.  true
 15. == is used to compare two variables without considering their data type, === is used to compare two values in a more strict mode without type conversion
+16. part2-question16.js
+17. [2,4,6]: first we know doSomethimg takes a value and return the double of it, and it's being passed into modifyArray as callbacks. In modifyArray, the callbacks will be called on each elements of the input array and push the modified(doubled) value into a newArray and then return it. Therefore overall modifyArray([1,2,3], doSomething) takes [1,2,3] and return a new array where each element is doubled the value which is [2,4,6]
+18. part2-question18.js
+19. 
+    1.  1
+    2.  4
+    3.  3
+    4.  2 
